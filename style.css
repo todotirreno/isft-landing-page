@@ -1,0 +1,51 @@
+body {
+  font-family: sans-serif;
+  background-color: #ffffff;
+}
+
+h1 {
+  font-size: 2em;
+  margin-top: 0;
+}
+
+p {
+  font-size: 1em;
+  margin-bottom: 1em;
+}
+
+section {
+  margin-bottom: 2em;
+}
+
+#intro {
+  text-align: center;
+}
+
+#formulario {
+  width: 50%;
+  margin: 0 auto;
+}
+
+input, select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+#contacto {
+  text-align: right;
+}
+
+@media (max-width: 500px) {
+  #formulario {
+    width: 100%;
+  }
+}
