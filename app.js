@@ -1,4 +1,4 @@
-const generateEducationalPrograms = () => {
+function generateEducationalPrograms() {
   const programs = ["Análisis de sistemas", "Asistente terapéutico", "Emergencias en Salud", "Gestión ambiental y salud", "Industria textil e indumentaria"];
   // for (const program of [
   //   "Computer Science",
@@ -15,8 +15,11 @@ const generateEducationalPrograms = () => {
   // }
   // return programs;
   const select = document.querySelector("select[name='programa']");
+  console.log(select);
+  let option;
   for (let program of programs) {
-    const option = document.createElement("option");
+    option = document.createElement("option");
+    option.value = program;
     option.textContent = program;
     select.append(option);
   }
