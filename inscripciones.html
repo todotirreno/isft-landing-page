@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <title>ISFT 151 - Inscripciones</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="header-top">
+        <img
+          src="img/cabecera_classroom.png"
+          alt="Logo ISFT 151"
+          class="logo-header"
+        />
+      </div>
+      <nav>
+        <ul>
+          <li>
+            <a href="index.html"
+              ><img src="img/business_logo.png" alt="" class="logo-nav"
+            /></a>
+          </li>
+          <li>
+            <a href="index.html">Inicio</a>
+          </li>
+          <li>
+            <a href="carreras.html">Carreras</a>
+          </li>
+          <li>
+            <a href="inscripciones.html">Inscripciones</a>
+          </li>
+        </ul>
+        <a href="facebook.com/isft"></a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="intro">
+        <p>
+          En esta página puedes inscribirte a los diferentes programas
+          educativos que ofrece ISFT 151.
+        </p>
+        <p>Para inscribirte, completa el formulario a continuación.</p>
+      </section>
+
+      <section id="formulario">
+        <form action="enviar.php" method="post">
+          <input type="text" name="nombre" placeholder="Nombre" />
+          <input type="text" name="apellido" placeholder="Apellido" />
+          <input type="email" name="email" placeholder="Email" />
+          <select name="programa" title="carrera"></select>
+          <input type="submit" value="Inscribirse" />
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <section class="contacto">
+        <h2>Contacto</h2>
+        <p>Dirección: Castelli 4197, Mar del Plata, Argentina</p>
+        <p>Teléfono: 472-7800</p>
+        <p>Email: info@isft151.com</p>
+      </section>
+      <p>Copyright © 2023 ISFT 151</p>
+    </footer>
+    <script src="app.js"></script>
+  </body>
+</html>
